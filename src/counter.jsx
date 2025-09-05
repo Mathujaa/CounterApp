@@ -5,6 +5,7 @@ function Counter() {
     <div> 
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
+      <p>Count:{count}</p>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
     </div>
    
